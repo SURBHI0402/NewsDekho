@@ -1,0 +1,18 @@
+{% extends 'base.html '%}
+{% block content %}
+
+<div class="page">
+    {% for m in msg%}
+        
+        <h1>{{m.title}}</h1>
+        {% if m.urlToImage%}
+            <img src={{m.urlToImage}} style="width:400px; height:auto"></img>
+        {% endif %}
+        <br>
+        <a href={{m.url}}>Read More</a>
+        <hr>
+  
+
+    {% endfor %}
+</div>
+{%endblock%}

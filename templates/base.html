@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+            News App
+        </title>
+        <style>
+            *{font-size:20px;}
+            body{background-color:rgb(255, 255, 255);}
+            .nav{background-color:orange;}
+            .nav a{color:rgb(31, 1, 1);text-decoration: none;margin: 1.5cm;font-size:40px;}
+            h2{border-style:solid;width:50%;border-radius:30px;
+          }
+          .page{
+            background-color: azure;
+            padding-top: 1cm;
+            padding-bottom: 1cm;
+            padding-left: 3cm;
+            padding-right: 3cm;
+          }
+          
+        </style>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <center>
+            <div class="nav">
+                <a href="{% url 'home' %}">News</a>
+                <a href="{% url  'about' %}">About</a>
+            </div>
+            {% block content %}
+            {%endblock%}
+        </center>
+    </body>
+</html>
