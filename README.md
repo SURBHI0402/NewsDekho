@@ -1,4 +1,4 @@
-#NewsDekho: Your Window to the World 🌍📰
+# NewsDekho: Your Window to the World 🌍📰
 Welcome to NewsDekho, a cutting-edge web platform that ensures you're always in the know about the latest news from around the world. Powered by Django and driven by Python, NewsDekho boasts a formidable backend for lightning-fast data processing. The frontend, a work of art meticulously crafted with HTML and CSS, guarantees a browsing experience like no other.
 
 Features at a Glance 🚀
